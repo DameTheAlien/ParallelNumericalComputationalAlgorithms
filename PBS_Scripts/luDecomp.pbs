@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#PBS -S /bin/bash
+#PBS -l nodes=8:ppn=8
+#PBS -l walltime=00:05:00
+#PBS -j operation
+#PBS -N luDecomp_dfranco
+#PBS -m bae
+#PBS -M dfranco24@unm.edu
+
+module load gcc/11
+module load openmpi
+module load cmake
+mpic++ -o luDecomp luDecomp.cpp
+mpirun -n 8 -N 8 ./luDecomp 
+mpirun -n 16 -N 8 ./luDecomp 
+mpirun -n 32 -N 8 ./luDecomp 
+mpirun -n 64 -N 8 ./luDecomp 

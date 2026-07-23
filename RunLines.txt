@@ -1,0 +1,15 @@
+MatMat:
+mpic++ -o matMatMult matMatMult.cpp
+mpirun -n 1 -N 64 ./matMatMult
+
+Gaussian Elimination:
+mpic++ -o gaussElim gaussElim.cpp
+mpirun -n 1 -N 64 ./gaussElim
+
+LU Decomposition:
+mpic++ -o luDecomp luDecomp.cpp
+mpirun -n 1 -N 64 ./luDecomp
+
+Eigenvalues Calculation:
+mpic++ -o evalCalc evalCalc.cpp
+mpirun -n 1 -N 64 ./evalCalc

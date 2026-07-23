@@ -1,0 +1,123 @@
+# Compiled object files
+*.o
+*.obj
+*.lo
+
+# Executables
+*.exe
+*.out
+*.app
+*.bin
+
+# Libraries
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+
+# Build directories
+build/
+cmake-build-*/
+bin/
+out/
+Debug/
+Release/
+x64/
+x86/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+install_manifest.txt
+
+# Keep a handwritten Makefile
+# Makefile
+
+# Generated dependency files
+*.d
+*.dep
+
+# MPI runtime/output files
+*.hostfile
+*.machinefile
+*.rank
+*.pid
+mpi_output/
+mpi_logs/
+
+# Scheduler output from HPC systems
+slurm-*.out
+slurm-*.err
+*.slurm.out
+*.slurm.err
+*.pbs.o*
+*.pbs.e*
+*.lsf.o*
+*.lsf.e*
+
+# Profiling and performance output
+gmon.out
+*.prof
+*.profile
+*.trace
+*.trc
+*.otf
+*.otf2
+*.cubex
+
+# Test and coverage output
+Testing/
+coverage/
+*.gcda
+*.gcno
+*.gcov
+*.lcov
+
+# Debug files
+*.pdb
+*.ilk
+*.dSYM/
+core
+core.*
+vgcore.*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Environment and secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains / CLion
+.idea/
+*.iml
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
