@@ -1,4 +1,6 @@
 # Final Project
+[View the project report](./FinalReport_DamianFranco.pdf)
+
 ## Damian Franco
 ## CS-575
 
