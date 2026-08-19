@@ -1,4 +1,4 @@
-# Final Project
+# Parallelism in Numerical Computational Algorithms
 [View the project report](./FinalReport_DamianFranco.pdf)
 
 ## Damian Franco
